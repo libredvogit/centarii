@@ -1,4 +1,26 @@
 Centaurii
 ---------
+A somewhat good discord bot.
 
-A pragmatic discord bot.
+Install
+-------
+Requirements: 
+* discordrb - a wrapper for the discord API.
+
+Using Gem:
+$ gem install discordrb
+$ git clone https://github.com/libredvogit/centaurii
+
+Using Bundler:
+$ git clone https://github.com/libredvogit/centaurii
+$ bundle install
+
+I could also recommend you build it from source.
+
+Run:
+./main.rb
+
+Credits
+-------
+discordrb - https://github.com/shardlab/discordrb (MIT license)
+
