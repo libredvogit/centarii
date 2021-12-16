@@ -13,4 +13,8 @@ bot.message with_text: ".ping" do |event|
     m.edit "pong #{Time.now - event.timestamp}s"
 end
 
+bot.message with_text: ".uname" do |event|
+    event.respond "`#{`uname -a`}`"
+end
+
 bot.run
